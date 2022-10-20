@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'gustavosfolder/gustavospage.dart';
+import 'chevysfolder/chevyspage.dart';
 
 /*
   Authors:
@@ -70,11 +71,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       backgroundColor: Colors.purple, fixedSize: Size(200, 50)),
                   onPressed: (() => setState(() {
                         //Routes you to chevyspage.dart
-                        /*Navigator.push(
+                        Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => const chevyspage()),
-                        );*/
+                        );
                       }))),
             ),
             //Second button
