@@ -41,7 +41,7 @@ class anthonyspage extends StatelessWidget {
                   //takes you back to main page
                   child: Text("GOTO Main",
                       style: TextStyle(fontSize: 21, color: Colors.white)),
-                  style: TextButton.styleFrom(backgroundColor: Colors.red),
+                  style: TextButton.styleFrom(backgroundColor: Colors.black),
                   onPressed: () {
                     //Routes you to main.dart
                     Navigator.push(
