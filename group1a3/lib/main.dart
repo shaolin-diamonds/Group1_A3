@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'gustavosfolder/gustavospage.dart';
+import 'dylansfolder/dylanspage.dart';
 
 /*
   Authors:
@@ -87,11 +88,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       backgroundColor: Colors.blue, fixedSize: Size(200, 50)),
                   onPressed: (() => setState(() {
                         //Routes you to dylanspage.dart
-                        /*Navigator.push(
+                        Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => const dylanspage()),
-                        );*/
+                        );
                       }))),
             ),
             //Third button
