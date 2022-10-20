@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'gustavosfolder/gustavospage.dart';
+<<<<<<< HEAD
 import 'chevysfolder/chevyspage.dart';
+=======
+import 'dylansfolder/dylanspage.dart';
+>>>>>>> fd5d0dd155fb484e27f471d70c3a1d78b4988248
 
 /*
   Authors:
@@ -88,11 +92,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       backgroundColor: Colors.blue, fixedSize: Size(200, 50)),
                   onPressed: (() => setState(() {
                         //Routes you to dylanspage.dart
-                        /*Navigator.push(
+                        Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => const dylanspage()),
-                        );*/
+                        );
                       }))),
             ),
             //Third button
