@@ -8,29 +8,34 @@ class dylanspage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Dylan's Page"),
+        title: Text("Dylan's Page", style: TextStyle(fontSize: 25)),
       ),
       body: Center(
         child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
-            Padding(
-              padding: const EdgeInsets.all(10),
-              children: <Widget>[
-                const Text(
-                  "I like to build and paint modal kits.",
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: Text(
+                  "1. I like to build and paint model kits.\n" +
+                      "2. My Favorite TV show Starwars: The Clone Wars\n" +
+                      "3. I like Airsoft.",
                   style: TextStyle(fontSize: 25.0),
                 ),
-                ElevatedButton(
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: ElevatedButton(
                     style: TextButton.styleFrom(backgroundColor: Colors.blue),
                     onPressed: () => Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
                                 const MyHomePage(title: 'main'))),
-                    child: const Text("GOTO MAIN",
-                        style: TextStyle(fontSize: 21, color: Colors.black)))
-              ],
-            )),
+                    child: const Text("GOTO Main",
+                        style: TextStyle(fontSize: 21, color: Colors.white))),
+              )
+            ]),
       ),
     );
   }
