@@ -16,7 +16,9 @@ class chevyspage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chevy\'s Page', style: TextStyle(fontSize: 24)),
+        backgroundColor: Colors.purple,
+        title: const Text('Chevy\'s Page',
+            style: TextStyle(fontSize: 24, color: Colors.white)),
       ),
       body: Center(
         child: Column(
