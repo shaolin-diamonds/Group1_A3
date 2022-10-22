@@ -17,7 +17,9 @@ class anthonyspage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Anthony\'s Page', style: TextStyle(fontSize: 25)),
+        backgroundColor: Colors.black,
+        title: const Text('Anthony\'s Page',
+            style: TextStyle(fontSize: 25, color: Colors.white)),
       ),
       body: Center(
         child: Column(
