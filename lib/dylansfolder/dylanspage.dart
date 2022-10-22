@@ -8,7 +8,9 @@ class dylanspage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Dylan's Page", style: TextStyle(fontSize: 25)),
+        backgroundColor: Colors.blue,
+        title: Text("Dylan's Page",
+            style: TextStyle(fontSize: 25, color: Colors.white)),
       ),
       body: Center(
         child: Column(
